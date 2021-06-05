@@ -16,6 +16,7 @@ function plugins_loader(){
     foreach($back as $plugin){
         if(file_exists('plugins/'.$plugin.'/main.php')){
             require 'plugins/'.$plugin.'/main.php';
+            $system_vaules['active_plugins'][$plugin] = new $plugin(); 
         }else{
             trigger_error('Plugin '.$plugin.' Not Exist!', E_USER_WARNING);
         }
