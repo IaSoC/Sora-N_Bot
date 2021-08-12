@@ -1,0 +1,281 @@
+2021-08-06 14:18:37 pid:1 Error: Cannot use object of type Workerman\Protocols\Http\Request as array in K:\bot\main.php:20
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(23): Workerman\Worker::runAll()
+#7 {main}
+2021-08-06 14:18:37 pid:1 Worker process terminated
+2021-08-06 18:54:42 pid:1 Error: Class 'mysqli' not found in K:\bot\main.php:113
+Stack trace:
+#0 K:\bot\main.php(64): perms()
+#1 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#2 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#6 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#7 K:\bot\main.php(133): Workerman\Worker::runAll()
+#8 {main}
+2021-08-06 18:54:42 pid:1 Worker process terminated
+2021-08-06 18:56:29 pid:1 Error: Class 'mysqli' not found in K:\bot\main.php:113
+Stack trace:
+#0 K:\bot\main.php(64): perms()
+#1 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#2 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#6 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#7 K:\bot\main.php(133): Workerman\Worker::runAll()
+#8 {main}
+2021-08-06 18:56:29 pid:1 Worker process terminated
+2021-08-06 19:06:47 pid:1 Error: Call to a member function fetch_assoc() on bool in K:\bot\main.php:119
+Stack trace:
+#0 K:\bot\main.php(64): perms()
+#1 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#2 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#6 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#7 K:\bot\main.php(134): Workerman\Worker::runAll()
+#8 {main}
+2021-08-06 19:06:47 pid:1 Worker process terminated
+2021-08-07 08:42:58 pid:1 Error: Call to a member function fetch_all() on bool in K:\bot\main.php:146
+Stack trace:
+#0 K:\bot\main.php(64): perms()
+#1 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#2 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#6 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#7 K:\bot\main.php(191): Workerman\Worker::runAll()
+#8 {main}
+2021-08-07 08:42:58 pid:1 Worker process terminated
+2021-08-07 09:26:39 pid:1 Error: Function name must be a string in K:\bot\main.php:63
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(120): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:26:39 pid:1 Worker process terminated
+2021-08-07 09:28:40 pid:1 Error: Function name must be a string in K:\bot\main.php:66
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(123): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:28:40 pid:1 Worker process terminated
+2021-08-07 09:29:32 pid:1 Error: Function name must be a string in K:\bot\main.php:67
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(124): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:29:32 pid:1 Worker process terminated
+2021-08-07 09:42:13 pid:1 Error: Call to undefined function plugmanager() in K:\bot\plugins\help.php:4
+Stack trace:
+#0 K:\bot\main.php(22): include_once()
+#1 K:\bot\vendor\workerman\workerman\Worker.php(2415): {closure}()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#5 K:\bot\main.php(120): Workerman\Worker::runAll()
+#6 {main}
+2021-08-07 09:42:14 pid:1 Worker process terminated
+2021-08-07 09:42:50 pid:1 Error: Call to undefined function plugmanager() in K:\bot\plugins\help.php:4
+Stack trace:
+#0 K:\bot\main.php(22): include_once()
+#1 K:\bot\vendor\workerman\workerman\Worker.php(2415): {closure}()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#5 K:\bot\main.php(120): Workerman\Worker::runAll()
+#6 {main}
+2021-08-07 09:42:51 pid:1 Worker process terminated
+2021-08-07 09:43:15 pid:1 Error: Function name must be a string in K:\bot\main.php:63
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(120): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:43:15 pid:1 Worker process terminated
+2021-08-07 09:44:07 pid:1 Error: Function name must be a string in K:\bot\main.php:63
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(120): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:44:07 pid:1 Worker process terminated
+2021-08-07 09:44:45 pid:1 Error: Function name must be a string in K:\bot\main.php:64
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(121): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:44:45 pid:1 Worker process terminated
+2021-08-07 09:45:25 pid:1 Error: Function name must be a string in K:\bot\main.php:66
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(123): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:45:25 pid:1 Worker process terminated
+2021-08-07 09:48:05 pid:1 Error: Function name must be a string in K:\bot\main.php:66
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(123): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:48:05 pid:1 Worker process terminated
+2021-08-07 09:49:09 pid:1 Error: Function name must be a string in K:\bot\main.php:66
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(123): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:49:09 pid:1 Worker process terminated
+2021-08-07 09:51:56 pid:1 Error: Function name must be a string in K:\bot\main.php:66
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(123): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:51:56 pid:1 Worker process terminated
+2021-08-07 09:53:40 pid:1 Error: Function name must be a string in K:\bot\main.php:66
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(123): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:53:40 pid:1 Worker process terminated
+2021-08-07 09:54:57 pid:1 Error: Function name must be a string in K:\bot\main.php:66
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(123): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 09:54:57 pid:1 Worker process terminated
+2021-08-07 10:00:44 pid:1 Error: Function name must be a string in K:\bot\main.php:64
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(121): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 10:00:44 pid:1 Worker process terminated
+2021-08-07 10:04:52 pid:1 Error: Function name must be a string in K:\bot\main.php:65
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(122): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 10:04:52 pid:1 Worker process terminated
+2021-08-07 10:06:50 pid:1 Error: Function name must be a string in K:\bot\main.php:66
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(123): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 10:06:50 pid:1 Worker process terminated
+2021-08-07 10:09:41 pid:1 Error: Function name must be a string in K:\bot\main.php:68
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(125): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 10:09:41 pid:1 Worker process terminated
+2021-08-07 10:12:30 pid:1 Error: Function name must be a string in K:\bot\main.php:70
+Stack trace:
+#0 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#1 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#3 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#6 K:\bot\main.php(137): Workerman\Worker::runAll()
+#7 {main}
+2021-08-07 10:12:30 pid:1 Worker process terminated
+2021-08-12 04:35:13 pid:1 Error: Call to undefined function data() in K:\bot\plugins\blocklist.php:35
+Stack trace:
+#0 K:\bot\main.php(266): BlockList()
+#1 K:\bot\main.php(93): event_executer()
+#2 K:\bot\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}()
+#3 K:\bot\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#4 K:\bot\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#5 K:\bot\vendor\workerman\workerman\Worker.php(1417): Workerman\Worker->run()
+#6 K:\bot\vendor\workerman\workerman\Worker.php(1360): Workerman\Worker::forkWorkersForWindows()
+#7 K:\bot\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#8 K:\bot\main.php(290): Workerman\Worker::runAll()
+#9 {main}
+2021-08-12 04:35:14 pid:1 Worker process terminated
+2021-08-12 06:17:33 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required 'Rcon_minecraft/Rcon.php' (include_path='.;C:\php\pear') in K:\bot\plugins\rcon_minecraft.php on line 12"
+2021-08-12 06:18:05 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required 'Rcon_minecraft/Rcon.php' (include_path='.;C:\php\pear') in K:\bot\plugins\rcon_minecraft.php on line 12"

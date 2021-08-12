@@ -1,0 +1,5 @@
+images/
+tmp/
+private.key
+plugins/
+!plugins/exp.php
